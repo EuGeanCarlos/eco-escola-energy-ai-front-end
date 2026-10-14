@@ -59,3 +59,7 @@ Protótipo / projeto de estudo em desenvolvimento. A descrição acima distingue
 [GitHub](https://github.com/EuGeanCarlos)
 
 Licenças, autoria compartilhada e atribuições existentes no código e nos materiais originais permanecem aplicáveis.
+
+## Validação desta auditoria — 14/10/2026
+
+Sem publicação nova confirmada. npm ci aprovado; npm run build falhou por ausência de src/components/Sidebar e outros imports originais. Recuperar os componentes originais; não foi criada aplicação substituta.
