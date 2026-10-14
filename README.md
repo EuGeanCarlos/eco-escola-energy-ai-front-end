@@ -1,66 +1,61 @@
-🌱 EcoEscola — Frontend Dashboard
+# EcoEscola — frontend
 
-Interface web do projeto EcoEscola, uma aplicação com impacto socioambiental que simula e analisa o consumo de energia em escolas públicas, exibindo alertas de desperdício energético e recomendações de economia.
+Estrutura React/Vite de dashboard. App.jsx importa Sidebar, Header, Dashboard e styles/global.css, mas esses arquivos não estão versionados: o build está bloqueado até recuperar a implementação original.
 
-Este repositório contém apenas o Front-end, desenvolvido em React.js, com foco em visualização de dados, clareza da informação e experiência do usuário.
+## Tecnologias
 
-🎯 Objetivo do Frontend
+- React 19
+- Vite 7
+- JavaScript
+- ESLint
 
-O frontend tem como responsabilidade:
+## Funcionalidades e utilização
 
-Exibir um dashboard de consumo energético
+A instalação usa npm ci em ecoescola-frontend/. npm run build permite reproduzir o bloqueio; não foi criada uma interface substituta.
 
-Apresentar indicadores visuais (cards, gráficos, status)
+## Como executar
 
-Mostrar alertas de desperdício identificados pela IA no backend
+```bash
+git clone https://github.com/EuGeanCarlos/eco-escola-energy-ai-front-end.git
+cd eco-escola-energy-ai-front-end
+cd ecoescola-frontend
+npm ci
+npm run dev
+```
 
-Exibir recomendações socioambientais
+Use Node.js 22.12 ou superior e o lockfile versionado. Para compilar, execute npm run build. Limitações descritas acima podem impedir o build.
 
-Facilitar a compreensão dos dados por gestores escolares
+## Demonstração e publicação
 
-Tudo em uma única página (Single Page Application), no formato de dashboard.
+Execução local. Nenhuma demonstração nova foi confirmada nesta etapa.
 
-🖥️ Layout e Design
+## Estrutura versionada
 
-Estilo: Dashboard moderno
+```text
+README.md
+ecoescola-frontend/.gitignore
+ecoescola-frontend/README.md
+ecoescola-frontend/eslint.config.js
+ecoescola-frontend/index.html
+ecoescola-frontend/package-lock.json
+ecoescola-frontend/package.json
+ecoescola-frontend/public/vite.svg
+ecoescola-frontend/src/App.css
+ecoescola-frontend/src/App.jsx
+ecoescola-frontend/src/assets/react.svg
+ecoescola-frontend/src/index.css
+ecoescola-frontend/src/main.jsx
+ecoescola-frontend/vite.config.js
+```
 
-Inspiração visual: painéis administrativos e sistemas de gestão
+## Status
 
-Fonte principal (logo): Kanit
+Protótipo / projeto de estudo em desenvolvimento. A descrição acima distingue o que está implementado das dependências ou etapas pendentes.
 
-Paleta: tons de verde (sustentabilidade) + neutros
+## Autor e créditos
 
-Layout responsivo (desktop-first)
+**Gean Carlos** — estudante de Engenharia de Computação, UEMA.
 
-O design prioriza simplicidade, legibilidade e impacto visual claro.
+[GitHub](https://github.com/EuGeanCarlos)
 
-🛠️ Tecnologias Utilizadas
-
-React.js (Vite)
-
-HTML5
-
-CSS3
-
-JavaScript (ES6+)
-
-📁 Estrutura Inicial do Projeto
-
-ecoescola-frontend/
-├── public/
-├── src/
-│   ├── assets/        # imagens, ícones, logo
-│   ├── components/    # componentes reutilizáveis (cards, sidebar, etc.)
-│   ├── pages/         # página principal do dashboard
-│   ├── styles/        # arquivos CSS
-│   ├── App.jsx
-│   └── main.jsx
-├── index.html
-├── package.json
-└── README.md
-
-
-
-Vite (build e dev server)
-
-Git & GitHub
+Licenças, autoria compartilhada e atribuições existentes no código e nos materiais originais permanecem aplicáveis.
